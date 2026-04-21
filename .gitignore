@@ -1,0 +1,4 @@
+echo "mnist_train.csv" > .gitignore
+echo "mnist_test.csv" >> .gitignore
+echo "*.exe" >> .gitignore
+echo "*.bin" >> .gitignore

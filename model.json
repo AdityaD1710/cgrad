@@ -1,0 +1,43 @@
+{
+  "framework": "cgrad",
+  "version": "1.0",
+  "num_layers": 6,
+  "layers": [
+    {
+      "index": 0,
+      "type": "Dense",
+      "in_features": 784,
+      "out_features": 128,
+      "params": 100480,
+      "weight_sample": [0.034194, -0.070658, -0.097969, -0.008053]
+    },
+    {
+      "index": 1,
+      "type": "ReLU"
+    },
+    {
+      "index": 2,
+      "type": "Dense",
+      "in_features": 128,
+      "out_features": 64,
+      "params": 8256,
+      "weight_sample": [0.125034, 0.027200, 0.043155, 0.084790]
+    },
+    {
+      "index": 3,
+      "type": "ReLU"
+    },
+    {
+      "index": 4,
+      "type": "Dense",
+      "in_features": 64,
+      "out_features": 10,
+      "params": 650,
+      "weight_sample": [0.126459, -0.134884, -0.184974, 0.186631]
+    },
+    {
+      "index": 5,
+      "type": "Softmax"
+    }
+  ]
+}
