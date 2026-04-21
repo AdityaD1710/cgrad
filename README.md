@@ -169,3 +169,10 @@ git push -u origin main
 
 ---
 
+## Dataset
+
+MNIST CSV files are not included in this repo due to size.
+Download from Kaggle: https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
+
+Place `mnist_train.csv` and `mnist_test.csv` in the project root before running.
+
