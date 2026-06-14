@@ -1,6 +1,4 @@
-Let's write the README and finalize everything for GitHub.
 
-Create `README.md` in your `cgrad` folder:
 
 ```markdown
 # cgrad — A PyTorch-style Deep Learning Framework in C++
